@@ -1,0 +1,14 @@
+{
+  "/api/*": {
+    "target": "http://143.244.183.182:8000",
+    "secure": false,
+    "changeOrigin": false,
+    "logLevel": "debug"
+  },
+  "/api/*/*": {
+    "target": "http://143.244.183.182:8000",
+    "secure": false,
+    "changeOrigin": false,
+    "logLevel": "debug"
+  }
+}

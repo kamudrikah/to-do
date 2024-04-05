@@ -1,0 +1,9 @@
+services:
+  to-do:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:4200"
+    expose:
+      - 80
